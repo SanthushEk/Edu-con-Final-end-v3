@@ -27,6 +27,9 @@
   <link
     href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Poppins:wght@400;500&display=swap"
     rel="stylesheet">
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="../js/Contact.js" defer></script>
 </head>
 
 <body id="top">
@@ -157,22 +160,22 @@
 
                 <form class="messageForm" id="contactForm">
                     <div class="inputGroup halfWidth">
-                        <input type="text" name="" required="required">
+                      <input type="text" id="name" name="" class="item" required="required">
                         <label>&nbsp Your Name</label>
                     </div>
 
                     <div class="inputGroup halfWidth">
-                        <input type="email" name="" required="required">
+                      <input type="email"  id="email" name="" class="item" required="required">
                         <label>&nbsp Email</label>
                     </div>
 
                     <div class="inputGroup fullWidth">
-                        <input type="text" name="" required="required">
+                      <input type="text" id="subject" name="" class="item" required="required">
                         <label>&nbsp Subject</label>
                     </div>
 
                     <div class="inputGroup fullWidth">
-                        <textarea required="required"></textarea>
+                      <textarea id="message" class="item" required="required"></textarea>
                         <label> &nbsp Say Something</label>
                     </div>
 
