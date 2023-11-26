@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- primary meta tag-->
+  <title>EDU-CON - Learn With Us</title>
+
+  <!-- favicon-->
+  <link rel="shortcut icon" href="../images/green.png" type="image/svg+xml">
+
+  <!--custom css link-->
+  <link rel="stylesheet" href="Contact.css">
+
+
+  <!--Box icons links-->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <!-- google font link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Poppins:wght@400;500&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!--#HEADER-->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="../images/green-removebg-preview-removebg-preview.png" width="80" height="50" alt="EDU-CON logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="wrapper">
+          <a href="#" class="logo">
+            <img src="../images/green-removebg-preview-removebg-preview.png" width="80" height="50" alt="EduCon logo">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="../../Home.html" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="../Pages/About.html" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link>Courses</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="../Pages/Blogs/Blog.html" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./Contact.html" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="../Pages/Contact.html" class="navbar-link" data-nav-link>ChatBox</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="header-actions">
+        <button class="header-action-btn" aria-label="toggle search" title="Search" id="searchButton">
+          <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+        </button>
+        <div class="search-box" id="searchBox">
+          <!-- Your search input and functionality will be here -->
+          <input type="text" id="searchInput" placeholder="Search..." />
+          
+        </div>
+        <button class="header-action-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+      <div class="overlay" data-nav-toggler data-overlay></div>
+    </div>
+  </header>
+  <main>
+    <article>
+
+    <!--Contact-->
+    <div class="container-contact">
+        <main class="row">
+            <section class="col left">
+                
+                <div class="contactTitle">
+                    <h2>Get In Touch</h2>
+                    <p>Contact us for expert support in education course scrapping. Our team provides guidance, troubleshooting, and reliable data. We value your feedback to enhance our services. Phone and email contact available.</p>
+                </div>
+
+                <div class="contactInfo">
+
+                    <div class="iconGroup">
+                        <div class="icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="detail">
+                            <span>Phone</span>
+                            <span>0761234568</span>
+                        </div>
+                    </div>
+
+                    <div class="iconGroup">
+                        <div class="icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="detail">
+                            <span>Email</span>
+                            <span>edu-con@scrap.net</span>
+                        </div>
+                    </div>
+
+                    <div class="iconGroup">
+                        <div class="icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="detail">
+                            <span>Location</span>
+                            <span>No-15,T.B Jaya Street,Colombo 10</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="socialMedia">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+
+                </div>
+            </section>
+
+            <section class="col right">
+
+                <form class="messageForm" id="contactForm">
+                    <div class="inputGroup halfWidth">
+                        <input type="text" name="" required="required">
+                        <label>&nbsp Your Name</label>
+                    </div>
+
+                    <div class="inputGroup halfWidth">
+                        <input type="email" name="" required="required">
+                        <label>&nbsp Email</label>
+                    </div>
+
+                    <div class="inputGroup fullWidth">
+                        <input type="text" name="" required="required">
+                        <label>&nbsp Subject</label>
+                    </div>
+
+                    <div class="inputGroup fullWidth">
+                        <textarea required="required"></textarea>
+                        <label> &nbsp Say Something</label>
+                    </div>
+
+                    <div class="inputGroup fullWidth">
+                        <button>Send Message</button>
+                    </div>
+
+
+                </form>
+            </section>
+        </main>
+    </div>
+
+    
+    <!--End Of Contact -->
+ 
+
+        <!--Side Bar-->
+        <div class="sidebar close">
+          <header>
+              <div class="image-text">
+                <span class="image">
+                  <img src="../images/technology.png" alt="help-logo" />
+              </span>
+
+                  <div class="text header-text">
+                      <span class="name">Assistance</span>
+                      <span class="profession">Tools</span>
+                  </div>
+              </div>
+
+              <i class="bx bx-chevron-right toggle"></i>
+          </header>
+
+          <div class="menu-bar">
+              <div class="menu">
+                  <ul class="menu-links">
+                      <li class="nav-link">
+                        <a href="https://www.desmos.com/scientific" target="_blank">
+                            <i class='bx bx-calculator icon'></i>
+                              <span class="text nav-text">Calculator</span>
+                          </a>
+                      </li>
+
+                      <li class="nav-link">
+                        <a href="https://www.deepl.com/en/translator" target="_blank">
+                            <i class='bx bx-transfer icon'></i>
+                              <span class="text nav-text">Translators</span>
+                          </a>
+                      </li>
+
+                      <li class="nav-link">
+                        <a href="https://replit.com/languages/python3" target="_blank">
+                            <i class='bx bx-code-alt icon'></i>
+                              <span class="text nav-text">Programming IDLE</span>
+                          </a>
+                      </li><li class="nav-link">
+                        <a href="https://www.any.do/en" target="_blank">                          
+                            <i class='bx bx-time-five icon'></i>
+                              <span class="text nav-text">ToDo List</span>
+                          </a>
+                      </li><li class="nav-link">
+                        <a href="https://dnschecker.org/notepad-online.php" target="_blank">                 
+                            <i class='bx bx-edit-alt icon'></i>
+                              <span class="text nav-text">Notes Pad</span>
+                          </a>
+                      </li>
+                    </li><li class="nav-link">
+                      <a href="https://www.figma.com/" target="_blank">
+                        <i class='bx bxl-figma icon'></i>
+                          <span class="text nav-text">Figma</span>
+                      </a>
+                  </li>
+                </li><li class="nav-link">
+                  <a href="https://chat.openai.com/" target="_blank">
+                    <i class='bx bx-brain icon'></i>
+                      <span class="text nav-text">ChatGPT</span>
+                  </a>
+              </li>
+                  </ul>
+              </div>
+              <div class="botton-content">            
+              <li class="mode">
+                  <div class="moon-sun">
+                      <i class="bx bx-moon icon moon"></i>
+                      <i class="bx bx-sun icon sun"></i>
+                  </div>
+                  <span class="mode-text text">Dark Mode</span>
+
+                  <div class="toggle-switch">
+                      <span class="switch"></span>
+                  </div>
+              </li>
+              </div>
+          </div>
+      </div>
+    </article>    
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" style="background-image: url('../images/footer-bg.png')">
+
+    <div class="footer-top section">
+      <div class="container grid-list">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="../images/green-removebg-preview-removebg-preview.png" width="100" height="50" alt="Edu-com logo">
+          </a>
+
+          <p class="footer-brand-text">
+          EDU-CON Learning Platform
+          </p>
+
+          <div class="wrapper">
+            <span class="span">Add:</span>
+
+            <address class="address">70-80 Upper St Norwich NR2</address>
+          </div>
+
+          <div class="wrapper">
+            <span class="span">Call:</span>
+
+            <a href="tel:+011234567890" class="footer-link">+01 123 4567 890</a>
+          </div>
+
+          <div class="wrapper">
+            <span class="span">Email:</span>
+
+            <a href="mailto:info@eduweb.com" class="footer-link">info@edu-con.com</a>
+          </div>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Online Platform</p>
+          </li>
+
+          <li>
+            <a href="./About.html" class="footer-link">About</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Courses</a>
+          </li>
+          <li>
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Links</p>
+          </li>
+
+          <li>
+            <a href="./Contact.html" class="footer-link">Contact Us</a>
+          </li>
+          <li>
+            <a href="./Blogs/Blog.html" class="footer-link">News & Articles</a>
+          </li>
+
+        </ul>
+
+        <div class="footer-list">
+
+          <p class="footer-list-title">Contacts</p>
+
+          <p class="footer-list-text">
+            Enter your email address to register to our newsletter subscription
+          </p>
+
+          <form action="" class="newsletter-form">
+            <input type="email" name="email_address" placeholder="Your email" required class="input-field">
+
+            <button type="submit" class="btn has-before">
+              <span class="span">Subscribe</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </form>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          Copyright 2022 All Rights Reserved by <a href="#" class="copyright-link">EDU-CON pvt ltd</a>
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+  <!--Back to top-->
+  <a href="#top" class="back-top-btn" aria-label="back top top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+  <!--custom js link-->
+  <script src="../js/script.js"></script>
+  <script src="../js/index.js"></script>
+  <script src="../js/Contact.js"></script>
+  <script src="../js/Sendmsg.js"></script>
+
+  <!--ionicon link-->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
